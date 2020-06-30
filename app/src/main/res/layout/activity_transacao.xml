@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/adicione_transacao"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Adicione Transacao"
+        android:gravity="center"
+        android:textSize="33dp"
+        android:textColorHint="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/quantidade_moeda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/adicione_transacao"
+        android:layout_marginBottom="-119dp"
+        android:hint="teste"
+        android:inputType="numberDecimal"
+        android:gravity="end"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/valor_moeda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quantidade_moeda"
+        android:layout_marginBottom="-98dp"
+        android:padding="15dp"
+        android:hint="teste"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/valor_qtd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quantidade_moeda"
+        android:layout_marginBottom="-197dp"
+        android:padding="15dp"
+        android:hint="teste"
+        android:gravity="end"/>
+
+    <Button
+        android:id="@+id/salvar_transacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="94dp"
+        android:text="SALVAR" />
+
+
+</RelativeLayout>

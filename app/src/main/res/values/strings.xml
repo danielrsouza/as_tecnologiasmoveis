@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ASTrabalho</string>
+    <string-array name="moedas">
+        <item>USDC</item>
+        <item>BTC</item>
+        <item>LTC</item>
+        <item>ETH</item>
+        <item>XRP</item>
+        <item>MBPRK01</item>
+        <item>MBPRK02</item>
+        <item>MBPRK03</item>
+        <item>MBPRK04</item>
+        <item>MBCONS01</item>
+    </string-array>
+</resources>
